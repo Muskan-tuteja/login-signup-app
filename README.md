@@ -15,9 +15,25 @@ A simple React application demonstrating a Login and Sign-Up flow with routing, 
 - Reusable `TextInput` component
 - Responsive design
 
+. Screenshots
+
+### Login Page
+![Login Page](./Screenshot/login.png)
+
+### Sign-Up Page
+![Sign-Up Page](./Screenshot/signup.png)
+
+.Tech Stack
+
+React (Create React App)
+
+React Router DOM
+
+CSS (custom styling)
+
 ## 🚀 Getting Started
 
-### 1. Clone the repository
+### . Clone the repository
 ```bash
 git clone https://github.com/muskan-tuteja/login-signup-app.git
 cd login-signup-app
@@ -29,18 +45,6 @@ npm install
 npm start
 
 
-4. Screenshots
 
-### Login Page
-![Login Page](./Screenshot/login.png)
 
-### Sign-Up Page
-![Sign-Up Page](./Screenshot/signup.png)
 
-5.Tech Stack
-
-React (Create React App)
-
-React Router DOM
-
-CSS (custom styling)
