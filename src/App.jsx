@@ -19,7 +19,7 @@ export default function App() {
 return (
 <div className="app">
 <header className="header">
-<Link to="/login" className="brand">AuthApp</Link>
+<Link to="/login" className="brand"></Link>
 </header>
 
 
@@ -34,7 +34,7 @@ return (
 </main>
 
 
-<footer className="footer">© {new Date().getFullYear()} AuthApp • Built with React</footer>
+
 </div>
 );
 }
