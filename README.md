@@ -31,9 +31,9 @@ A simple React application demonstrating a Login and Sign-Up flow with routing, 
 
 - CSS (custom styling)
 
-## 🚀 Getting Started
+##  Getting Started
 
-### . Clone the repository
+### Clone the repository
 ```bash
 git clone https://github.com/muskan-tuteja/login-signup-app.git
 cd login-signup-app
