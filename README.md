@@ -2,7 +2,7 @@
 ## 📸 Screenshots
 
 ### Login Page
-![Login Page](./screenshots/login.png)
+![Login Page](./Screenshot/login.png)
 
 ### Sign-Up Page
-![Sign-Up Page](./screenshots/signup.png)
+![Sign-Up Page](./Screenshot/signup.png)
