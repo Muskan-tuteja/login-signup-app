@@ -1,0 +1,57 @@
+:root {
+--bg: #0b1020;
+--card: #121a33;
+--accent: #5b8cff;
+--accent-2: #7cf5ff;
+--text: #e9f0ff;
+--muted: #9db0d3;
+--danger: #ff6b6b;
+--shadow: 0 10px 30px rgba(0,0,0,.25);
+}
+
+
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+body { margin: 0; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background: linear-gradient(180deg, #0a0f1e, #0f1631); color: var(--text); }
+
+
+.app { min-height: 100%; display: grid; grid-template-rows: auto 1fr auto; }
+.header { display: flex; align-items: center; justify-content: center; padding: 16px; }
+.brand { color: var(--text); text-decoration: none; font-weight: 700; letter-spacing: .5px; }
+.brand:hover { color: var(--accent-2); }
+.container { display: grid; place-items: center; padding: 24px; }
+
+
+.card { width: 100%; max-width: 480px; background: var(--card); padding: 28px; border-radius: 18px; box-shadow: var(--shadow); border: 1px solid rgba(255,255,255,.06); }
+.card h1 { margin: 0 0 8px; font-size: 28px; }
+.card p.sub { margin: 0 0 24px; color: var(--muted); font-size: 14px; }
+
+
+.form { display: grid; gap: 14px; }
+.row { display: grid; gap: 6px; }
+.label { font-size: 14px; color: var(--muted); }
+.input { width: 100%; padding: 12px 14px; border: 1px solid rgba(255,255,255,.12); border-radius: 12px; background: #0e1630; color: var(--text); outline: none; }
+.input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(91,140,255,.2); }
+.error { color: var(--danger); font-size: 12px; margin-top: 4px; }
+
+
+.btn { width: 100%; padding: 12px 16px; border: 0; border-radius: 12px; background: linear-gradient(90deg, var(--accent), var(--accent-2)); color: #0a0f1e; font-weight: 700; cursor: pointer; transition: transform .05s ease-in-out; }
+.btn:active { transform: translateY(1px); }
+
+
+.alt { text-align: center; color: var(--muted); font-size: 14px; margin-top: 12px; }
+.alt a { color: var(--accent-2); text-decoration: none; }
+.alt a:hover { text-decoration: underline; }
+
+
+.banner { width: 100%; max-width: 640px; background: #11204d; border: 1px solid rgba(124,245,255,.25); color: var(--accent-2); padding: 12px 16px; border-radius: 12px; margin-bottom: 16px; box-shadow: var(--shadow); }
+
+
+.footer { text-align: center; color: var(--muted); padding: 24px; font-size: 13px; }
+
+
+/* Responsive */
+@media (max-width: 520px) {
+.card { padding: 22px; border-radius: 14px; }
+.card h1 { font-size: 24px; }
+}
