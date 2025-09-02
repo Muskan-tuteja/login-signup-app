@@ -15,7 +15,7 @@ A simple React application demonstrating a Login and Sign-Up flow with routing, 
 - Reusable `TextInput` component
 - Responsive design
 
-. Screenshots
+## Screenshots
 
 ### Login Page
 ![Login Page](./Screenshot/login.png)
@@ -23,13 +23,13 @@ A simple React application demonstrating a Login and Sign-Up flow with routing, 
 ### Sign-Up Page
 ![Sign-Up Page](./Screenshot/signup.png)
 
-.Tech Stack
+## Tech Stack
 
-React (Create React App)
+- React (Create React App)
 
-React Router DOM
+- React Router DOM
 
-CSS (custom styling)
+- CSS (custom styling)
 
 ## 🚀 Getting Started
 
@@ -43,6 +43,8 @@ npm install
 
 3. Run the app
 npm start
+
+App will be available at http://localhost:3000
 
 
 
