@@ -54,7 +54,7 @@ export default function Signup() {
           name="name"
           value={form.name}
           onChange={onChange}
-          placeholder="e.g., Muskan Tuteja"
+          placeholder="Name"
           error={errors.name}
           autoComplete="name"
         />
